@@ -1,0 +1,321 @@
+CRITICAL - 2023-01-05 04:04:00 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Consumoapi.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 04:14:37 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Consumoapi.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:29:42 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 06:33:35 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Controllers\Consumoapi.php on line 101.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('consumoapi/insert')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('consumoapi/insert')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('consumoapi/insert')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:13:51 --> Illegal string offset 'json'
+in APPPATH\Controllers\Consumoapi.php on line 52.
+ 1 APPPATH\Controllers\Consumoapi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'json\'', 'APPPATH\\Controllers\\Consumoapi.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:14:05 --> Illegal string offset 'form_params'
+in APPPATH\Controllers\Consumoapi.php on line 52.
+ 1 APPPATH\Controllers\Consumoapi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'form_params\'', 'APPPATH\\Controllers\\Consumoapi.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:21:36 --> Argument 1 passed to CodeIgniter\HTTP\CURLRequest::post() must be of the type string, array given, called in C:\xampp\htdocs\CI4M2\app\Controllers\Consumoapi.php on line 46
+in SYSTEMPATH\HTTP\CURLRequest.php on line 207.
+ 1 APPPATH\Controllers\Consumoapi.php(46): CodeIgniter\HTTP\CURLRequest->post([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:22:18 --> Too few arguments to function CodeIgniter\HTTP\CURLRequest::request(), 1 passed in C:\xampp\htdocs\CI4M2\app\Controllers\Consumoapi.php on line 46 and at least 2 expected
+in SYSTEMPATH\HTTP\CURLRequest.php on line 128.
+ 1 APPPATH\Controllers\Consumoapi.php(46): CodeIgniter\HTTP\CURLRequest->request([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:03:50 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\Consumoapi.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Controllers\\Consumoapi.php', 51, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(51): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:17:25 --> Array to string conversion
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:18:58 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:19:02 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:19:15 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:19:16 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:34 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:35 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:35 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:35 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:36 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:36 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:36 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:20:36 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:24:14 --> Undefined index: codbar
+in APPPATH\Controllers\Consumoapi.php on line 49.
+ 1 APPPATH\Controllers\Consumoapi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: codbar', 'APPPATH\\Controllers\\Consumoapi.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:28:03 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:29:26 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\Consumoapi.php on line 51.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('consumoapi/inserir')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('consumoapi/inserir')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('consumoapi/inserir')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:29:46 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:30:03 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:30:28 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:31:18 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 48.
+ 1 APPPATH\Controllers\Consumoapi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:34:53 --> Undefined variable: arrayPedido
+in APPPATH\Controllers\Consumoapi.php on line 55.
+ 1 APPPATH\Controllers\Consumoapi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: arrayPedido', 'APPPATH\\Controllers\\Consumoapi.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 10:35:08 --> Undefined variable: arrayPedido
+in APPPATH\Controllers\Consumoapi.php on line 55.
+ 1 APPPATH\Controllers\Consumoapi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: arrayPedido', 'APPPATH\\Controllers\\Consumoapi.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 11:01:30 --> Undefined variable: json
+in APPPATH\Controllers\Consumoapi.php on line 57.
+ 1 APPPATH\Controllers\Consumoapi.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: json', 'APPPATH\\Controllers\\Consumoapi.php', 57, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 11:40:17 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 11:57:45 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 12:01:02 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 12:03:50 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 12:05:42 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 12:07:23 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 12:44:57 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 12:55:23 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Consumoapi.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 12:55:41 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Consumoapi.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 12:58:50 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 13:55:36 --> Call to a member function paginate() on array
+in APPPATH\Controllers\Consumoapi.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 13:56:34 --> Call to a member function paginate() on array
+in APPPATH\Controllers\Consumoapi.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 13:57:53 --> Call to a member function paginate() on array
+in APPPATH\Controllers\Consumoapi.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 13:58:16 --> Call to a member function paginate() on array
+in APPPATH\Controllers\Consumoapi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 14:03:21 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

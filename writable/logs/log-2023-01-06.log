@@ -1,0 +1,845 @@
+CRITICAL - 2023-01-06 06:59:06 --> Trying to get property 'retorno' of non-object
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'retorno\' of non-object', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 06:59:55 --> Trying to get property 'retorno' of non-object
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'retorno\' of non-object', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:13:48 --> Illegal string offset 'resultado'
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'resultado\'', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:14:52 --> Array and string offset access syntax with curly braces is deprecated
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and string offset access syntax with curly braces is deprecated', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 3 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Consumoapi/inserir')
+ 4 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Consumoapi/inserir')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Consumoapi/inserir')
+ 6 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:25:14 --> Trying to get property 'resultado' of non-object
+in APPPATH\Controllers\Consumoapi.php on line 61.
+ 1 APPPATH\Controllers\Consumoapi.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resultado\' of non-object', 'APPPATH\\Controllers\\Consumoapi.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:28:57 --> get_object_vars() expects parameter 1 to be object, string given
+in APPPATH\Controllers\Consumoapi.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_object_vars() expects parameter 1 to be object, string given', 'APPPATH\\Controllers\\Consumoapi.php', 61, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(61): get_object_vars('stdClass Object
+(
+    [retorno] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [success] => Pedido Enviado!
+                    [numped] => 29745
+                )
+
+        )
+
+)
+')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:36:13 --> Trying to get property 'retorno' of non-object
+in APPPATH\Controllers\Consumoapi.php on line 63.
+ 1 APPPATH\Controllers\Consumoapi.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'retorno\' of non-object', 'APPPATH\\Controllers\\Consumoapi.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:39:32 --> substr() expects at least 2 parameters, 1 given
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr() expects at least 2 parameters, 1 given', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(62): substr('stdClass Object
+(
+    [retorno] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [success] => Pedido Enviado!
+                    [numped] => 29755
+                )
+
+        )
+
+)
+')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:49:53 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:50:59 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:57:59 --> Call to a member function result_array() on string
+in APPPATH\Controllers\Consumoapi.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 07:59:14 --> Call to a member function result_array() on string
+in APPPATH\Controllers\Consumoapi.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 08:04:21 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 08:51:47 --> Trying to get property 'resultado' of non-object
+in APPPATH\Controllers\Consumoapi.php on line 63.
+ 1 APPPATH\Controllers\Consumoapi.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'resultado\' of non-object', 'APPPATH\\Controllers\\Consumoapi.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 08:52:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Consumoapi.php on line 63.
+ 1 APPPATH\Controllers\Consumoapi.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Consumoapi.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 09:12:09 --> get_object_vars() expects parameter 1 to be object, string given
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_object_vars() expects parameter 1 to be object, string given', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(62): get_object_vars('stdClass Object
+(
+    [retorno] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [success] => Pedido Enviado!
+                    [numped] => 29827
+                )
+
+        )
+
+)
+')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 09:12:46 --> get_object_vars() expects parameter 1 to be object, string given
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_object_vars() expects parameter 1 to be object, string given', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(62): get_object_vars('stdClass Object
+(
+    [retorno] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [success] => Pedido Enviado!
+                    [numped] => 29829
+                )
+
+        )
+
+)
+')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 09:13:23 --> get_object_vars() expects parameter 1 to be object, string given
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_object_vars() expects parameter 1 to be object, string given', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(62): get_object_vars('stdClass Object
+(
+    [retorno] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [success] => Pedido Enviado!
+                    [numped] => 29831
+                )
+
+        )
+
+)
+')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:14:16 --> Trying to get property 'retorno' of non-object
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'retorno\' of non-object', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:14:45 --> Trying to get property 'retorno' of non-object
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'retorno\' of non-object', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:15:06 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 APPPATH\Controllers\Consumoapi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:18:53 --> explode() expects at least 2 parameters, 1 given
+in APPPATH\Controllers\Consumoapi.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects at least 2 parameters, 1 given', 'APPPATH\\Controllers\\Consumoapi.php', 62, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(62): explode('stdClass Object
+(
+    [retorno] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [success] => Pedido Enviado!
+                    [numped] => 29855
+                )
+
+        )
+
+)
+')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:48:29 --> Undefined variable: explode
+in APPPATH\Controllers\Consumoapi.php on line 66.
+ 1 APPPATH\Controllers\Consumoapi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Controllers\\Consumoapi.php', 66, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:50:53 --> Use of undefined constant resultadoJSON - assumed 'resultadoJSON' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Consumoapi.php on line 60.
+ 1 APPPATH\Controllers\Consumoapi.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant resultadoJSON - assumed \'resultadoJSON\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Consumoapi.php', 60, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 10:51:18 --> Undefined variable: resultadoJSON
+in APPPATH\Controllers\Consumoapi.php on line 60.
+ 1 APPPATH\Controllers\Consumoapi.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: resultadoJSON', 'APPPATH\\Controllers\\Consumoapi.php', 60, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 11:51:21 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\Consumoapi.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH\\Controllers\\Consumoapi.php', 51, [...])
+ 2 APPPATH\Controllers\Consumoapi.php(51): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 11:56:52 --> App\Controllers\Consumoapi::inserir(): Failed opening required 'HTTP/Request2.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\Consumoapi.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-06 12:38:01 --> Argument 2 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type string, array given, called in C:\xampp\htdocs\CI4M2\app\Controllers\Consumoapi.php on line 57
+in SYSTEMPATH\HTTP\CURLRequest.php on line 128.
+ 1 APPPATH\Controllers\Consumoapi.php(57): CodeIgniter\HTTP\CURLRequest->request('http://192.168.15.37/portaljaia/api/consumoapi.php', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 12:42:08 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 44.
+ 1 APPPATH\Controllers\Consumoapi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 12:42:32 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 44.
+ 1 APPPATH\Controllers\Consumoapi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:06:57 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:10:33 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp\htdocs\CI4M2\app\Controllers\Consumoapi.php on line 89
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Consumoapi.php(89): CodeIgniter\HTTP\RedirectResponse->to('/consumoapi/enviarpedido', '[success]')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:12:54 --> Use of undefined constant explode - assumed 'explode' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Consumoapi.php on line 82.
+ 1 APPPATH\Controllers\Consumoapi.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant explode - assumed \'explode\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Consumoapi.php', 82, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:13:17 --> Use of undefined constant explode - assumed 'explode' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Consumoapi.php on line 82.
+ 1 APPPATH\Controllers\Consumoapi.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant explode - assumed \'explode\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Consumoapi.php', 82, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:21:59 --> Use of undefined constant explode - assumed 'explode' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Consumoapi.php on line 82.
+ 1 APPPATH\Controllers\Consumoapi.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant explode - assumed \'explode\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Consumoapi.php', 82, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:30:45 --> Undefined property: App\Controllers\Consumoapi::$load
+in APPPATH\Controllers\Consumoapi.php on line 87.
+ 1 APPPATH\Controllers\Consumoapi.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Consumoapi::$load', 'APPPATH\\Controllers\\Consumoapi.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:31:35 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\CI4M2\app\Controllers\Consumoapi.php on line 89
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Consumoapi.php(89): CodeIgniter\HTTP\RedirectResponse->to('/consumoapi/enviarpedido', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:32:56 --> Undefined property: App\Controllers\Consumoapi::$load
+in APPPATH\Controllers\Consumoapi.php on line 84.
+ 1 APPPATH\Controllers\Consumoapi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Consumoapi::$load', 'APPPATH\\Controllers\\Consumoapi.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:33:56 --> Invalid file: /consumoapi/enviarpedido.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/consumoapi/enviarpedido.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/consumoapi/enviarpedido', [], true)
+ 3 APPPATH\Controllers\Consumoapi.php(84): view('/consumoapi/enviarpedido', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:34:26 --> Invalid file: /.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('C:\\', [], true)
+ 3 APPPATH\Controllers\Consumoapi.php(84): view('C:\\', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:36:39 --> Undefined offset: 66
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 66', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:36:53 --> Undefined offset: 66
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 66', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:37:25 --> Undefined offset: 66
+in APPPATH\Controllers\Consumoapi.php on line 85.
+ 1 APPPATH\Controllers\Consumoapi.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 66', 'APPPATH\\Controllers\\Consumoapi.php', 85, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:37:54 --> Undefined offset: 66
+in APPPATH\Controllers\Consumoapi.php on line 84.
+ 1 APPPATH\Controllers\Consumoapi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 66', 'APPPATH\\Controllers\\Consumoapi.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:38:10 --> Undefined index: chavecliente
+in APPPATH\Controllers\Consumoapi.php on line 44.
+ 1 APPPATH\Controllers\Consumoapi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Consumoapi.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:38:32 --> Undefined offset: 66
+in APPPATH\Controllers\Consumoapi.php on line 84.
+ 1 APPPATH\Controllers\Consumoapi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 66', 'APPPATH\\Controllers\\Consumoapi.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:45:00 --> Undefined variable: data
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:45:35 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:48:02 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 25.
+ 1 APPPATH\Views\api\enviarpedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:48:31 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 25.
+ 1 APPPATH\Views\api\enviarpedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:48:58 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 25.
+ 1 APPPATH\Views\api\enviarpedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:50:16 --> Uninitialized string offset: 66
+in APPPATH\Views\api\enviarpedido.php on line 26.
+ 1 APPPATH\Views\api\enviarpedido.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 66', 'APPPATH\\Views\\api\\enviarpedido.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(84): view('api/enviarpedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->inserir()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:50:52 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 25.
+ 1 APPPATH\Views\api\enviarpedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:51:15 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 25.
+ 1 APPPATH\Views\api\enviarpedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 13:52:23 --> Undefined variable: explode
+in APPPATH\Views\api\enviarpedido.php on line 25.
+ 1 APPPATH\Views\api\enviarpedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: explode', 'APPPATH\\Views\\api\\enviarpedido.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:01:22 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:01:49 --> Undefined variable: data
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:02:38 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:06:13 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 81.
+ 1 APPPATH\Views\api\enviarpedido.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:07:45 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 81.
+ 1 APPPATH\Views\api\enviarpedido.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:07:47 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 81.
+ 1 APPPATH\Views\api\enviarpedido.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:09:23 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:09:49 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:02 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:12 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:13 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:14 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:14 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:15 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:39 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 33, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:50 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:11:56 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 33.
+ 1 APPPATH\Controllers\Consumoapi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 33, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:12:56 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 91.
+ 1 APPPATH\Controllers\Consumoapi.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:12:58 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 91.
+ 1 APPPATH\Controllers\Consumoapi.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:12:58 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 91.
+ 1 APPPATH\Controllers\Consumoapi.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:12:59 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 91.
+ 1 APPPATH\Controllers\Consumoapi.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:12:59 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 91.
+ 1 APPPATH\Controllers\Consumoapi.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 91, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:13:34 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:13:35 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:13:36 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:13:36 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:13:36 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:13:36 --> Undefined variable: nped
+in APPPATH\Controllers\Consumoapi.php on line 90.
+ 1 APPPATH\Controllers\Consumoapi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Controllers\\Consumoapi.php', 90, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:15:15 --> Undefined variable: data
+in APPPATH\Controllers\Consumoapi.php on line 95.
+ 1 APPPATH\Controllers\Consumoapi.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Consumoapi.php', 95, [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-06 14:24:35 --> Undefined variable: nped
+in APPPATH\Views\api\enviarpedido.php on line 24.
+ 1 APPPATH\Views\api\enviarpedido.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nped', 'APPPATH\\Views\\api\\enviarpedido.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\api\\enviarpedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 5 APPPATH\Controllers\Consumoapi.php(33): view('api/enviarpedido')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consumoapi->enviarpedido()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consumoapi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

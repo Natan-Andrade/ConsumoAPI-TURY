@@ -1,0 +1,124 @@
+CRITICAL - 2023-01-11 05:59:16 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Mininota.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 05:59:32 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Mininota.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 05:59:51 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Mininota.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 06:00:32 --> Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\CI4M2\app\Controllers\Mininota.php:45
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+#1 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#4 {main}
+  thrown
+in APPPATH\Controllers\Mininota.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-11 06:23:08 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\api\mininota.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/mininota', [], true)
+ 4 APPPATH\Controllers\Mininota.php(55): view('api/mininota', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 06:24:19 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\api\mininota.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/mininota', [], true)
+ 4 APPPATH\Controllers\Mininota.php(54): view('api/mininota', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 06:25:06 --> Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\CI4M2\app\Views\api\mininota.php:23
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\View\View.php(213): include()
+#1 C:\xampp\htdocs\CI4M2\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('api/mininota', Array, true)
+#3 C:\xampp\htdocs\CI4M2\app\Controllers\Mininota.php(54): view('api/mininota', Array)
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+#6 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+  thrown
+in APPPATH\Views\api\mininota.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-11 06:44:10 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Controllers\Mininota.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-11 06:44:37 --> Uncaught ErrorException: base64_encode() expects parameter 1 to be string, array given in C:\xampp\htdocs\CI4M2\app\Controllers\Mininota.php:34
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'base64_encode()...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\CI4M2\app\Controllers\Mininota.php(34): base64_encode(Array)
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+in APPPATH\Controllers\Mininota.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-11 07:44:54 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Enviarpedido.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:26:35 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Enviarpedido.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Enviarpedido.php', 39, [...])
+ 2 APPPATH\Controllers\Enviarpedido.php(39): json_decode(Object(CodeIgniter\HTTP\Response))
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:26:43 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH\Controllers\Enviarpedido.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, object given', 'APPPATH\\Controllers\\Enviarpedido.php', 39, [...])
+ 2 APPPATH\Controllers\Enviarpedido.php(39): json_decode(Object(CodeIgniter\HTTP\Response))
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 10:18:46 --> Uncaught CodeIgniter\Exceptions\PageNotFoundException: Controller or its method is not found: \App\Controllers\Consumoapi::enviarpedido in C:\xampp\htdocs\CI4M2\system\CodeIgniter.php:876
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(876): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controller...', 'enviarpedido')
+#1 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#4 {main}
+  thrown
+in SYSTEMPATH\CodeIgniter.php on line 876.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-11 10:51:13 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::View()
+in APPPATH\Controllers\Enviarpedido.php on line 120.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 10:54:40 --> Uncaught CodeIgniter\Exceptions\PageNotFoundException: __<!DOCTYPE html>__<!--__This is a starter template page. Use this page to start your new project from__scratch. This page gets rid of all links and provides the needed markup only.__-->__<html lang="pt">__<head>__  <meta charset="utf-8">__  <meta name="viewport" content="width=device-width, initial-scale=1">__  <title>D is not a valid controller name in C:\xampp\htdocs\CI4M2\system\Router\AutoRouter.php:99
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('__<!DOCTYPE htm...')
+#1 C:\xampp\htdocs\CI4M2\system\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('__<!DOCTYPE htm...')
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('__<!DOCTYPE htm...')
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\
+in SYSTEMPATH\Router\AutoRouter.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,373 @@
+CRITICAL - 2023-01-10 06:34:32 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 06:37:46 --> Uncaught ErrorException: require_once(HTTP/Request2.php): failed to open stream: No such file or directory in C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php:21
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(HT...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(21): require_once()
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+in APPPATH\Controllers\Enviarpedido.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 07:38:34 --> Uncaught TypeError: Argument 2 passed to view() must be of the type array, int given, called in C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php on line 15 and defined in C:\xampp\htdocs\CI4M2\system\Common.php:1121
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(15): view('/index', 1)
+#1 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->index()
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 1121.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 07:40:25 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: /index.php in C:\xampp\htdocs\CI4M2\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/index.php')
+#1 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('/index', Array, true)
+#2 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(18): view('/index', Array)
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->index()
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+  thrown
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 07:44:53 --> Uncaught TypeError: Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php on line 19 and defined in C:\xampp\htdocs\CI4M2\system\HTTP\RedirectResponse.php:32
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(19): CodeIgniter\HTTP\RedirectResponse->to('Inicio/index', Array)
+#1 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->index()
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 08:17:20 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: /Enviarpedido/index.php in C:\xampp\htdocs\CI4M2\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Enviarpedido/i...')
+#1 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('/Enviarpedido/i...', Array, true)
+#2 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(52): view('/Enviarpedido/i...', Array)
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+  thrown
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 08:18:31 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: /Enviarpedido/index.php in C:\xampp\htdocs\CI4M2\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Enviarpedido/i...')
+#1 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('/Enviarpedido/i...', Array, true)
+#2 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(48): view('/Enviarpedido/i...')
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+  thrown
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 08:19:03 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: /.php in C:\xampp\htdocs\CI4M2\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('/', Array, true)
+#2 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(48): view('/')
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+  thrown
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 08:20:57 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\api\enviarpedido.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 4 APPPATH\Controllers\Enviarpedido.php(52): view('api/enviarpedido', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 08:21:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\api\enviarpedido.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedido', [], true)
+ 4 APPPATH\Controllers\Enviarpedido.php(52): view('api/enviarpedido', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 08:22:24 --> Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\CI4M2\app\Views\api\enviarpedido.php:35
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\View\View.php(213): include()
+#1 C:\xampp\htdocs\CI4M2\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedid...', Array, true)
+#3 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(52): view('api/enviarpedid...', Array)
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#6 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+  thrown
+in APPPATH\Views\api\enviarpedido.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 08:24:09 --> Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\CI4M2\app\Views\api\enviarpedido.php:35
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\View\View.php(213): include()
+#1 C:\xampp\htdocs\CI4M2\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedid...', Array, true)
+#3 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(52): view('api/enviarpedid...', Array)
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#6 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+  thrown
+in APPPATH\Views\api\enviarpedido.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 08:24:09 --> Uncaught ErrorException: json_decode() expects parameter 1 to be string, object given in C:\xampp\htdocs\CI4M2\app\Views\api\enviarpedido.php:35
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\CI4M2\app\Views\api\enviarpedido.php(35): json_decode(Object(stdClass))
+#2 C:\xampp\htdocs\CI4M2\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CI4M2\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CI4M2\system\Common.php(1135): CodeIgniter\View\View->render('api/enviarpedid...', Array, true)
+#5 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(52): view('api/enviarpedid...', Array)
+#6 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#7 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#8 C:\xampp\htdocs\CI4M
+in APPPATH\Views\api\enviarpedido.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 11:07:19 --> Uncaught CodeIgniter\Exceptions\PageNotFoundException: Fonts.googleapis.com is not a valid controller name in C:\xampp\htdocs\CI4M2\system\Router\AutoRouter.php:99
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('fonts.googleapi...')
+#1 C:\xampp\htdocs\CI4M2\system\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('fonts.googleapi...')
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('fonts.googleapi...')
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+in SYSTEMPATH\Router\AutoRouter.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 11:07:19 --> Uncaught ErrorException: file_get_contents(stdClass Object ( [retorno] =&gt; Array ( [0] =&gt; stdClass Object ( [success] =&gt; Pedido Enviado! [numped] =&gt; 30498 ) ) )): failed to open stream: No such file or directory in C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(14): file_get_contents('stdClass Object...')
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->index()
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+in APPPATH\Controllers\Enviarpedido.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 11:07:19 --> Uncaught ErrorException: file_get_contents(stdClass Object ( [retorno] =&gt; Array ( [0] =&gt; stdClass Object ( [success] =&gt; Pedido Enviado! [numped] =&gt; 30498 ) ) )): failed to open stream: No such file or directory in C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(14): file_get_contents('stdClass Object...')
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->index()
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown
+in APPPATH\Controllers\Enviarpedido.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 11:08:29 --> 28 : Failed to connect to 192.168.15.37 port 80: Timed out
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('28', 'Failed to connect to 192.168.15.37 port 80: Timed out')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviapedido.php')
+ 4 APPPATH\Controllers\Enviarpedido.php(46): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviapedido.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 13:11:54 --> Uncaught ErrorException: file_get_contents(stdClass Object
+(
+    [retorno] =&gt; Array
+        (
+            [0] =&gt; stdClass Object
+                (
+                    [success] =&gt; Pedido Enviado!
+                    [numped] =&gt; 30528
+                )
+
+        )
+
+)
+): failed to open stream: No such file or directory in C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php:69
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(69): file_get_contents('stdClass Object...')
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4M2\public\index
+in APPPATH\Controllers\Enviarpedido.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 13:12:31 --> Uncaught ErrorException: file_get_contents(stdClass Object
+(
+    [retorno] =&gt; Array
+        (
+            [0] =&gt; stdClass Object
+                (
+                    [success] =&gt; Pedido Enviado!
+                    [numped] =&gt; 30530
+                )
+
+        )
+
+)
+): failed to open stream: No such file or directory in C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php:69
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\CI4M2\app\Controllers\Enviarpedido.php(69): file_get_contents('stdClass Object...')
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4M2\public\index
+in APPPATH\Controllers\Enviarpedido.php on line 69.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 13:16:14 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 13:17:26 --> 22 : The requested URL returned error: 404 Not Found
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 Not Found')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviominota.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviominota.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 13:17:32 --> 22 : The requested URL returned error: 404 Not Found
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 Not Found')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviominota.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviominota.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 13:18:30 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 13:19:48 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:09:14 --> Uncaught CodeIgniter\Exceptions\PageNotFoundException: Controller or its method is not found: \App\Controllers\Portaljaia::api in C:\xampp\htdocs\CI4M2\system\CodeIgniter.php:876
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(876): CodeIgniter\Exceptions\PageNotFoundException::forControllerNotFound('\\App\\Controller...', 'api')
+#1 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#4 {main}
+  thrown
+in SYSTEMPATH\CodeIgniter.php on line 876.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-10 14:16:49 --> Use of undefined constant  true - assumed ' true' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Mininota.php on line 44.
+ 1 APPPATH\Controllers\Mininota.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant  true - assumed \' true\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Mininota.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:17:43 --> Use of undefined constant  true - assumed ' true' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Mininota.php on line 44.
+ 1 APPPATH\Controllers\Mininota.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant  true - assumed \' true\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Mininota.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:17:49 --> Use of undefined constant  true - assumed ' true' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Mininota.php on line 44.
+ 1 APPPATH\Controllers\Mininota.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant  true - assumed \' true\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Mininota.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:17:54 --> Use of undefined constant  true - assumed ' true' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Mininota.php on line 44.
+ 1 APPPATH\Controllers\Mininota.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant  true - assumed \' true\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Mininota.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:18:10 --> Use of undefined constant  true - assumed ' true' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Mininota.php on line 44.
+ 1 APPPATH\Controllers\Mininota.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant  true - assumed \' true\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Mininota.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:26:19 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 44.
+ 1 APPPATH\Controllers\Mininota.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:26:31 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 44.
+ 1 APPPATH\Controllers\Mininota.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:31:45 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Mininota.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:31:55 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Mininota.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:32:52 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Mininota.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-10 14:34:04 --> Invalid file: /Mininota/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Mininota/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/Mininota/index', [], true)
+ 3 APPPATH\Controllers\Mininota.php(51): view('/Mininota/index')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

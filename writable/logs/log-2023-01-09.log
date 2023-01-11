@@ -1,0 +1,208 @@
+CRITICAL - 2023-01-09 08:10:49 --> Undefined index: codbar
+in APPPATH\Controllers\Enviarpedido.php on line 26.
+ 1 APPPATH\Controllers\Enviarpedido.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: codbar', 'APPPATH\\Controllers\\Enviarpedido.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 08:11:23 --> Undefined index: numeropedido
+in APPPATH\Controllers\Mininota.php on line 25.
+ 1 APPPATH\Controllers\Mininota.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: numeropedido', 'APPPATH\\Controllers\\Mininota.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 08:58:42 --> 22 : The requested URL returned error: 404 Not Found
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 Not Found')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 08:59:06 --> 22 : The requested URL returned error: 404 Not Found
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 Not Found')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 08:59:29 --> 22 : The requested URL returned error: 404 Not Found
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 Not Found')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 10:58:08 --> Undefined index: numped
+in APPPATH\Controllers\Mininota.php on line 25.
+ 1 APPPATH\Controllers\Mininota.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: numped', 'APPPATH\\Controllers\\Mininota.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:14:42 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-09 11:18:52 --> Undefined index: chavecliente
+in APPPATH\Controllers\Mininota.php on line 24.
+ 1 APPPATH\Controllers\Mininota.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: chavecliente', 'APPPATH\\Controllers\\Mininota.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:23:41 --> Call to a member function paginate() on array
+in APPPATH\Controllers\Consultasaldo.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consultasaldo->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultasaldo))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:28:21 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Controllers\Consultasaldo.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Consultasaldo')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Consultasaldo')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Consultasaldo')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:32:28 --> Trying to get property 'retorno' of non-object
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'retorno\' of non-object', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:32:36 --> Trying to get property 'retorno' of non-object
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'retorno\' of non-object', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:32:47 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:34:42 --> Illegal string offset 'retorno'
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 APPPATH\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'retorno\'', 'APPPATH\\Controllers\\Mininota.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:46:20 --> 22 : The requested URL returned error: 404 Not Found
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404 Not Found')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviarpedido.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:52:25 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Controllers\Clientes.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Clientes')
+ 5 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Clientes', true)
+ 6 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 11:57:54 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+in APPPATH\Controllers\Clientes.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Clientes')
+ 5 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Clientes', true)
+ 6 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 12:27:19 --> Undefined offset: 66
+in APPPATH\Controllers\Enviarpedido.php on line 61.
+ 1 APPPATH\Controllers\Enviarpedido.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 66', 'APPPATH\\Controllers\\Enviarpedido.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Enviarpedido->inserir()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enviarpedido))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-09 12:29:30 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-09 13:17:51 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-09 13:22:56 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-09 14:06:01 --> 28 : Failed to connect to 192.168.15.37 port 80: Timed out
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('28', 'Failed to connect to 192.168.15.37 port 80: Timed out')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviapedido.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviapedido.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 14:06:44 --> Uncaught CodeIgniter\HTTP\Exceptions\HTTPException: 28 : Failed to connect to 192.168.15.37 port 80: Timed out in C:\xampp\htdocs\CI4M2\system\HTTP\CURLRequest.php:660
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\system\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('28', 'Failed to conne...')
+#1 C:\xampp\htdocs\CI4M2\system\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\CI4M2\system\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168....')
+#3 C:\xampp\htdocs\CI4M2\app\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168....', Array)
+#4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+#5 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+#6 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cach
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-09 14:06:49 --> 28 : Failed to connect to 192.168.15.37 port 80: Timed out
+in SYSTEMPATH\HTTP\CURLRequest.php on line 660.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(660): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('28', 'Failed to connect to 192.168.15.37 port 80: Timed out')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(368): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://192.168.15.37/portaljaia/api/enviapedido.php')
+ 4 APPPATH\Controllers\Mininota.php(32): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://192.168.15.37/portaljaia/api/enviapedido.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 14:36:32 --> Uncaught ErrorException: Illegal string offset 'retorno' in C:\xampp\htdocs\CI4M2\app\Controllers\Mininota.php:37
+Stack trace:
+#0 C:\xampp\htdocs\CI4M2\app\Controllers\Mininota.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(925): App\Controllers\Mininota->inserir()
+#2 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mininota))
+#3 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI4M2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+in APPPATH\Controllers\Mininota.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
