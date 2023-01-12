@@ -21,7 +21,7 @@ class Enviarpedido extends BaseController
         header('Content-Type: application/json');
         header('Character-Encoding: utf-8');
 
-        $url = 'http://192.168.15.37/portaljaia/api/enviapedido.php';
+        $url = 'http://turyportal.dyndns.info:888/portaljaia_hml/api/enviapedido.php';
 
         $ch = curl_init($url);
         $data = array(

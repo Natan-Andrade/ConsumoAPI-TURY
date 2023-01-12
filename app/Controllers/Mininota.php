@@ -22,7 +22,7 @@ class Mininota extends BaseController
         header('Content-Type: application/json');
         header('Character-Encoding: utf-8');
 
-        $url = 'http://192.168.15.37/portaljaia/api/enviomininota.php';
+        $url = 'http://turyportal.dyndns.info:888/portaljaia_hml/api/enviomininota.php';
 
         $ch = curl_init($url);
 
@@ -86,5 +86,4 @@ class Mininota extends BaseController
         endif;
 
     }
-
 }

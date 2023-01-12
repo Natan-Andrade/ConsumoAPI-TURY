@@ -11,7 +11,7 @@ class Consultasaldo extends BaseController
     {
         $client = service('curlrequest');
         try{
-            $response = $client->request('GET','http://192.168.15.37/portaljaia/api/consultasaldo.php');
+            $response = $client->request('GET','http://turyportal.dyndns.info:888/portaljaia_hml/api/consultasaldo.php');
             $json = json_decode($response->getBody());
             $produtos = $json->produtos;
 

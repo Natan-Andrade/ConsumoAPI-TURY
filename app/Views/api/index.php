@@ -107,6 +107,7 @@
                     <table id="example1" class="table table-bordered">
                       <thead>
                           <tr>
+                            <th>#</th>
                             <th>Código do produto</th>
                             <th>Código de barras</th>
                             <th>saldo</th>
@@ -116,9 +117,11 @@
 
                       <tbody>
                       <?php if(!empty($produtos)):?>
+                        <?php $i = 1;?>
                         <?php foreach($produtos as $keyProd => $valueProd):?>
                           <tr>
-                            <td><span class="badge bg-dark"><?= $valueProd->codprod ?></span></td>
+                          <td><span class="badge bg-info"><?= $i++; ?></span></td>
+                          <td><span class="badge bg-dark"><?= $valueProd->codprod ?></span></td>
                             <?php if(!empty($valueProd->codbar)):?>
                             <td><span class="badge bg-warning"><?= $valueProd->codbar ?></span></td>
                             <?php else: ?>

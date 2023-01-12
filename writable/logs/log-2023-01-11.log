@@ -122,3 +122,13 @@ Stack trace:
 #4 C:\xampp\htdocs\CI4M2\system\CodeIgniter.php(349): CodeIgniter\
 in SYSTEMPATH\Router\AutoRouter.php on line 99.
  1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-11 14:36:01 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\api\index.php on line 122.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('api/index', [], true)
+ 4 APPPATH\Controllers\Consultasaldo.php(21): view('api/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Consultasaldo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultasaldo))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
